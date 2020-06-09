@@ -1,6 +1,11 @@
 Cara Menggunakan
 1. Pastikan telah terinstall docker compose. Jika belum silahkan ke sini https://docs.docker.com/compose/install/
-2. git clone 
+2. git clone https://github.com/palpal23/apache-php-mysql-docker.git
+3. cd apache-php-mysql-docker
+4. docker-compose up -d
+5. Pastikan container mysql apache dan phpmyadmin berjalan,dapat dicek dengan perintah docker-compose ps
+6. Upload file phpmu di apache-php-mysql-docker/html
+7. Tes akses menggunakan url: ipaddressanda:8080
 
 Service		Port
 Web-server 	8080
