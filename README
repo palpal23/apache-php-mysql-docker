@@ -1,3 +1,7 @@
+Cara Menggunakan
+1. Pastikan telah terinstall docker compose. Jika belum silahkan ke sini https://docs.docker.com/compose/install/
+2. git clone 
+
 Service		Port
 Web-server 	8080
 phpMyAdmin	5000
@@ -6,3 +10,4 @@ Mysql
 hostname: mysql-server
 username: root
 passowrd: mypass
+
