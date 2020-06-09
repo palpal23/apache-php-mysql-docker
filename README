@@ -1,0 +1,8 @@
+Service		Port
+Web-server 	8080
+phpMyAdmin	5000
+
+Mysql
+hostname: mysql-server
+username: root
+passowrd: mypass
